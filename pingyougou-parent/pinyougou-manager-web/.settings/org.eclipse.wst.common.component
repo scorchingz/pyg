@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-                                    
+                                        
+    
     
     
     
@@ -8,7 +9,8 @@
     
     
     <wb-module deploy-name="pinyougou-manager-web-0.0.1-SNAPSHOT">
-                                                                        
+                                                                                
+        
         
         
         
@@ -17,7 +19,8 @@
         
         
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
-                                                                        
+                                                                                
+        
         
         
         
@@ -26,7 +29,8 @@
         
         
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-                                                                        
+                                                                                
+        
         
         
         
@@ -35,7 +39,8 @@
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-                                                                        
+                                                                                
+        
         
         
         
@@ -59,7 +64,11 @@
         <dependent-module archiveName="pinyougou-search-interface-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pinyougou-search-interface/pinyougou-search-interface">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-                                                                        
+        <dependent-module archiveName="pinyougou-page-interface-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pinyougou-page-interface/pinyougou-page-interface">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                                                                                
+        
         
         
         
@@ -68,7 +77,8 @@
         
         
         <property name="context-root" value="pinyougou-manager-web"/>
-                                                                        
+                                                                                
+        
         
         
         
@@ -77,7 +87,8 @@
         
         
         <property name="java-output-path" value="/pinyougou-manager-web/target/classes"/>
-                                                                    
+                                                                            
+    
     
     
     
@@ -86,7 +97,8 @@
     
     
     </wb-module>
-                                
+                                    
+
 
 
 
